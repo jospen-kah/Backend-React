@@ -32,6 +32,6 @@ app.use('/api', require("./router/app.route"));
 
 
 // Start the server
-app.listen(8001, () => {
-  console.log('Server started on port 8001');
+app.listen(8000, () => {
+  console.log('Server started on port 8000');
 });
